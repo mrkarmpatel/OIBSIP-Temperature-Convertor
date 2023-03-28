@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title>Temperature Convertor</title>
+  <!-- For CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- For External Link  -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  
+    <!-- Header -->
+    <header>
+            <h1 class="header_text">
+                Temperature Convertor
+            </h1>
+    </header>
+
+    <!-- main bar -->
+    <main>
+
+        <div class="wrapper">
+
+            <!-- left devision -->
+            <div class="left">
+             <h1>Temperature Convertor</h1>
+             <p>To Convert Temperature from One Unit to Another Unit for Celcius, Fehrenheit and Kelvin.</p>
+
+             <form action="" id="generate-form">
+
+                <h4>From</h4>
+                <select name="from" id="from" class="from">
+                    <option value="Celcius">Celcius</option>
+                    <option value="Fehrenheit">Fehrenheit</option>
+                    <option value="Kelvin">Kelvin</option>
+                </select>
+                
+                <h4>To</h4>
+                <select name="to" id="to" class="to">
+                    <option value="All">All</option>
+                    <option value="Celcius">Celcius</option>
+                    <option value="Fehrenheit">Fehrenheit</option>
+                    <option value="Kelvin">Kelvin</option>
+                </select>
+                
+                <input name="temp_value" id="temp_value" type="text" placeholder="Enter a Value" class="temp_value"/>
+
+                <button class="submit" type="submit">Convert Temperature</button>
+             </form>
+            </div>
+
+            <!-- right devision -->
+            <div class="right">
+                <img src="images/temperature-convertor.jpg" alt=""/>
+            </div>
+
+        </div>
+
+        <!-- Solution -->
+        <div id="content">
+            <div id="item1">
+              <h1 id="it1"></h1>
+            </div>
+            <div id="item2">
+              <h1 id="it2"></h1>
+            </div>
+            <div id="item3">
+              <h1 id="it3"></h1>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>
